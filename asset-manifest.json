@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "/Fylo-Landing-Page/static/css/main.7d4150a6.css",
-    "main.js": "/Fylo-Landing-Page/static/js/main.c4087702.js",
+    "main.css": "/Fylo-Landing-Page/static/css/main.0758afd1.css",
+    "main.js": "/Fylo-Landing-Page/static/js/main.81c74143.js",
     "static/media/illustration-intro.png": "/Fylo-Landing-Page/static/media/illustration-intro.c20d85255009f195b4a6.png",
+    "static/media/icon-collaboration.svg": "/Fylo-Landing-Page/static/media/icon-collaboration.6c80c0a4c84274f029eb51c36f603765.svg",
     "static/media/logo.svg": "/Fylo-Landing-Page/static/media/logo.f5363383bf279490c4aba63ca2917a80.svg",
+    "static/media/icon-access-anywhere.svg": "/Fylo-Landing-Page/static/media/icon-access-anywhere.2856c661b15230024a11eb4b089dd3f1.svg",
+    "static/media/icon-any-file.svg": "/Fylo-Landing-Page/static/media/icon-any-file.fc9b91ba9923102f3aa45c19bc3244e6.svg",
     "index.html": "/Fylo-Landing-Page/index.html",
+    "static/media/icon-security.svg": "/Fylo-Landing-Page/static/media/icon-security.b6a932b6269cf10d3339e0a3d22c8b4e.svg",
     "static/media/bg-curvy-desktop.svg": "/Fylo-Landing-Page/static/media/bg-curvy-desktop.953dbf39a0ba9d537f9d.svg",
     "static/media/bg-curvy-mobile.svg": "/Fylo-Landing-Page/static/media/bg-curvy-mobile.3ab5d2c7091bda722a7b.svg",
-    "main.7d4150a6.css.map": "/Fylo-Landing-Page/static/css/main.7d4150a6.css.map",
-    "main.c4087702.js.map": "/Fylo-Landing-Page/static/js/main.c4087702.js.map"
+    "main.0758afd1.css.map": "/Fylo-Landing-Page/static/css/main.0758afd1.css.map",
+    "main.81c74143.js.map": "/Fylo-Landing-Page/static/js/main.81c74143.js.map"
   },
   "entrypoints": [
-    "static/css/main.7d4150a6.css",
-    "static/js/main.c4087702.js"
+    "static/css/main.0758afd1.css",
+    "static/js/main.81c74143.js"
   ]
 }
