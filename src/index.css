@@ -16,3 +16,37 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+body {
+  background-color: var(--darkBluemainBackground);
+  background-image: url("./assets/bg-curvy-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a {
+  color: var(--white);
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+::-webkit-scrollbar {
+  width: 0.3125rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--darkBlueTestimonialsBackground);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--white);
+  border-radius: 3.125rem;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  body {
+    background-image: url("./assets/bg-curvy-mobile.svg");
+}
+}

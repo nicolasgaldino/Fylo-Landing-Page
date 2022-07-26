@@ -1,0 +1,55 @@
+.headerContainer {
+  padding: 3.125rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logoImg {
+  max-width: 100%;
+}
+
+.ulContainer {
+  display: flex;
+  padding: 0;
+  align-items: center;
+  gap: 3.125rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.liContent {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 1.25rem;
+  list-style: none;
+  cursor: pointer;
+}
+
+.linkContent {
+  color: var(--white);
+}
+
+.liContent:hover {
+  transform: scale(1.2);
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .headerContainer {
+    padding: 1.25rem 0.625rem;
+    justify-content: space-around;
+  }
+
+  .logoImg {
+    width: auto;
+    height: 2.5rem;
+  }
+
+  .ulContainer {
+    gap: 0.625rem;
+  }
+
+  .liContent {
+    font-size: 1rem;
+  }
+}
