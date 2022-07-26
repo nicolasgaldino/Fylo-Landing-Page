@@ -1,4 +1,4 @@
-# Frontend Mentor - Fylo landing page
+# Frontend Mentor - <a href="https://nicolasgaldino.github.io/Fylo-Landing-Page/">Fylo Landing Page</a>
 
 ![Design preview for the Fylo dark theme landing page challenge](src/assets/design/desktop-design.jpg)
 
