@@ -1,0 +1,22 @@
+.advantagensContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  color: var(--white);
+}
+
+.advantageTitle,
+.advantageDescription {
+  font-family: "Open Sans", sans-serif;
+}
+
+.advantageTitle {
+  font-size: 1.25rem;
+}
+
+.advantageDescription {
+  max-width: 25rem;
+  text-align: center;
+}
