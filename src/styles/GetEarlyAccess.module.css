@@ -52,6 +52,7 @@
   padding: 0.9375rem 2.5rem;
   background-color: var(--cyanGradient);
   color: var(--white);
+  cursor: pointer;
 }
 
 /* MOBILE */
