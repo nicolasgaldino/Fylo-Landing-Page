@@ -12,9 +12,6 @@
   font-family: "Open Sans", sans-serif;
 }
 
-.divImg {
-}
-
 .productiveImg {
   max-width: 100%;
 }
@@ -43,9 +40,6 @@
   padding-bottom: 0.3125rem;
   color: var(--cyanGradient);;
   border-bottom: 0.125rem solid var(--cyanGradient);
-}
-
-.productiveArrow {
 }
 
 /* MOBILE */
