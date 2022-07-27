@@ -7,7 +7,7 @@ import AnyFile from '../assets/icon-any-file.svg';
 
 const AdvantagesSection = () => {
   return (
-    <main className={styles.mainAdvantagesContainer}>
+    <section className={styles.mainAdvantagesContainer}>
       <div className={styles.frstContainer}>
         <AdvantagesCard
           icon={AccessAnywhere}
@@ -36,7 +36,7 @@ const AdvantagesSection = () => {
           description="Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared."
         />
       </div>
-    </main>
+    </section>
   )
 }
 
