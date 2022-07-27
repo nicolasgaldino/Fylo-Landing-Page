@@ -18,10 +18,13 @@
 }
 
 body {
-  background-color: var(--darkBluemainBackground);
-  background-image: url("./assets/bg-curvy-desktop.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: var(--darkBluemainBackground);
+  background: linear-gradient(
+    to top,
+    var(--darkBluemainBackground) 0,
+    var(--darkBluefooterBackground) 45%,
+    var(--blueGradient) 100%
+  );
   color: var(--white);
 }
 
@@ -49,6 +52,5 @@ a {
 @media (max-width: 600px) {
   body {
     padding: 0.9375rem;
-    background-image: url("./assets/bg-curvy-mobile.svg");
-}
+  }
 }

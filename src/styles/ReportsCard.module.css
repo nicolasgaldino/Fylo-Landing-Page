@@ -21,18 +21,18 @@
 .identificationDiv {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 0.9375rem;
 }
 
 .resportUserPic {
-  max-width: 50px;
+  max-width: 3.125rem;
   border-radius: 50%;
 }
 
 .textDiv {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 0.3125rem;
 }
 
 .userReportProfession {
