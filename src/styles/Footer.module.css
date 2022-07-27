@@ -1,0 +1,15 @@
+:root {
+  --darkBlueIntroAndEmail: #1c2431;
+  --darkBluemainBackground: #181f2a;
+  --darkBluefooterBackground: #0b1523;
+  --darkBlueTestimonialsBackground: #202a3c;
+  --cyanGradient: #65e2d9;
+  --blueGradient: #339ecc;
+  --lightRed: #ff4242;
+  --white: #ffffff;
+}
+
+footer {
+  background-color: var(--darkBluefooterBackground);
+  height: 500px;
+}

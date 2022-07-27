@@ -50,7 +50,7 @@ a {
 /* MOBILE */
 
 @media (max-width: 600px) {
-  body {
+  section {
     padding: 0.9375rem;
   }
 }

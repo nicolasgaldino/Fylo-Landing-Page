@@ -4,6 +4,7 @@ import IntroSection from './components/IntroSection';
 import AdvantagesSection from './components/AdvantagesSection';
 import ProductiveSection from './components/ProductiveSection';
 import ReportsSection from './components/ReportsSection';
+import Footer from './components/Footer';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <AdvantagesSection />
       <ProductiveSection />
       <ReportsSection />
+      <Footer />
     </main>
   )
 }

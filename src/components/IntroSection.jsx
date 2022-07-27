@@ -1,5 +1,6 @@
 import styles from '../styles/IntroSection.module.css';
 import illustrationIntro from '../assets/illustration-intro.png';
+import Button from './Button';
 
 const IntroSection = () => {
   return (
@@ -11,9 +12,10 @@ const IntroSection = () => {
       <p className={styles.mainDescription}>
         Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.
       </p>
-      <a href="#" className={styles.startButton}>
-        Get Started
-      </a>
+      <Button
+        link="#"
+        text="Get Started"
+      />
     </section>
   )
 }

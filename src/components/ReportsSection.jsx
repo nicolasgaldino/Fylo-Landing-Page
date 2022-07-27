@@ -1,5 +1,6 @@
 import styles from '../styles/ReportsSection.module.css';
 import ReportsCard from './ReportsCard';
+import GetEarlyAccess from './GetEarlyAccess';
 import ProfiPic01 from '../assets/profile-1.jpg';
 import ProfiPic02 from '../assets/profile-2.jpg';
 import ProfiPic03 from '../assets/profile-3.jpg';
@@ -27,6 +28,7 @@ const ReportsSection = () => {
         name="Iva Boyd"
         profession="Founder & CEO, Huddle"
       />
+      <GetEarlyAccess />
     </section>
   )
 }
