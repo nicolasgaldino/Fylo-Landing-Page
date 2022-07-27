@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Fylo-Landing-Page/static/css/main.ac7b8b47.css",
+    "main.css": "/Fylo-Landing-Page/static/css/main.d31d641e.css",
     "main.js": "/Fylo-Landing-Page/static/js/main.08a1c638.js",
     "static/media/illustration-intro.png": "/Fylo-Landing-Page/static/media/illustration-intro.c20d85255009f195b4a6.png",
     "static/media/illustration-stay-productive.png": "/Fylo-Landing-Page/static/media/illustration-stay-productive.5d7a50ea74b08000cd67.png",
@@ -18,11 +18,11 @@
     "static/media/icon-phone.svg": "/Fylo-Landing-Page/static/media/icon-phone.43c05d1a510cada2b8f305cbb2278ae4.svg",
     "static/media/icon-location.svg": "/Fylo-Landing-Page/static/media/icon-location.a681f02d94e561498fa0781c3538edac.svg",
     "static/media/icon-email.svg": "/Fylo-Landing-Page/static/media/icon-email.201ea9e2e87effbe720d0f8b77fba022.svg",
-    "main.ac7b8b47.css.map": "/Fylo-Landing-Page/static/css/main.ac7b8b47.css.map",
+    "main.d31d641e.css.map": "/Fylo-Landing-Page/static/css/main.d31d641e.css.map",
     "main.08a1c638.js.map": "/Fylo-Landing-Page/static/js/main.08a1c638.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac7b8b47.css",
+    "static/css/main.d31d641e.css",
     "static/js/main.08a1c638.js"
   ]
 }
