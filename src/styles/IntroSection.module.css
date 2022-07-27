@@ -4,6 +4,7 @@
   justify-content: center;
   align-items: center;
   gap: 1.875rem;
+  cursor: default;
 }
 
 .mainImg {
@@ -41,7 +42,7 @@
 
 @media (max-width: 600px) {
   .sectionContainer {
-    margin-top: 1.25rem;
+    margin-top: 6.25rem;
   }
 
   .mainPresentation {

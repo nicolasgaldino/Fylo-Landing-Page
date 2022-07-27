@@ -1,0 +1,28 @@
+.reportsSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  margin-top: 6.25rem;
+  padding: 2.5rem 3.75rem;
+  position: relative;
+}
+
+.reportsQuotes {
+  position: absolute;
+  left: 4%;
+  top: 1%;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .reportsSection {
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+  .reportsQuotes {
+    top: -5%;
+  }
+}

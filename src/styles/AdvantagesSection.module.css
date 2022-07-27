@@ -5,7 +5,8 @@
   align-items: center;
   gap: 18.75rem;
   max-width: 100%;
-  margin-top: 6.25rem;
+  margin-top: 9.375rem;
+  cursor: default;
 }
 
 .frstContainer,

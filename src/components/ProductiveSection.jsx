@@ -19,7 +19,7 @@ const ProductiveSection = () => {
           Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.
         </p>
         <a href="localhost://3000" className={styles.productiveLink}>
-          See how Fylo works<img src={ArrowSVG} alt="ArrowSVG" />
+          See how Fylo works <img src={ArrowSVG} alt="ArrowSVG" className={styles.productiveArrowSVG}/>
         </a>
       </div>
     </section>

@@ -13,7 +13,6 @@
   padding: 0;
   align-items: center;
   gap: 3.125rem;
-  transition: all 0.2s ease-in-out;
 }
 
 .liContent {
@@ -22,6 +21,7 @@
   font-size: 1.25rem;
   list-style: none;
   cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
 
 .linkContent {

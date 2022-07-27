@@ -1,0 +1,57 @@
+.resportsCard {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  gap: 1.875rem;
+  padding: 1.875rem;
+  z-index: 1;
+  border-radius: 0.3125rem;
+  background-color: var(--darkBlueTestimonialsBackground);
+}
+
+.reportDiv,
+.textDiv {
+  font-family: "Open Sans", sans-serif;
+}
+
+.reportDescription {
+  font-size: 1.5rem;
+}
+
+.identificationDiv {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.resportUserPic {
+  max-width: 50px;
+  border-radius: 50%;
+}
+
+.textDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.userReportProfession {
+  font-weight: 500;
+}
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .reportDescription {
+    font-weight: 400;
+    font-size: 0.875rem;
+  }
+
+  .userReportName {
+    font-size: 1.0625rem;
+  }
+
+  .userReportProfession {
+    font-size: 0.875rem;
+  }
+}
