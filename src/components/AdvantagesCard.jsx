@@ -1,13 +1,19 @@
 import styles from '../styles/AdvantagesCard.module.css';
+const {
+  advantagensContainer,
+  advantageIcon,
+  advantageTitle,
+  advantageDescription
+} = styles;
 
 const AdvantagesCard = ({ icon, alt, title, description }) => {
   return (
-    <div className={styles.advantagensContainer}>
-      <img src={icon} alt={alt} className={styles.advantageIcon} />
-      <h2 className={styles.advantageTitle}>
+    <div className={advantagensContainer}>
+      <img src={icon} alt={alt} className={advantageIcon} />
+      <h2 className={advantageTitle}>
         {title}
       </h2>
-      <p className={styles.advantageDescription}>
+      <p className={advantageDescription}>
         {description}
       </p>
     </div>

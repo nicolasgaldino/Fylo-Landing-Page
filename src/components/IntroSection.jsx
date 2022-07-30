@@ -1,21 +1,26 @@
-import styles from '../styles/IntroSection.module.css';
 import illustrationIntro from '../assets/illustration-intro.png';
-import Button from './Button';
+import styles from '../styles/IntroSection.module.css';
+const {
+  sectionContainer,
+  mainImg,
+  mainPresentation,
+  mainDescription,
+  linkButton
+} = styles;
 
 const IntroSection = () => {
   return (
-    <section className={styles.sectionContainer}>
-      <img src={illustrationIntro} alt="PromotionalImage" className={styles.mainImg} />
-      <h1 className={styles.mainPresentation}>
+    <section className={sectionContainer}>
+      <img src={illustrationIntro} alt="PromotionalImage" className={mainImg} />
+      <h1 className={mainPresentation}>
         All your files in one secure location, accessible anywhere.
       </h1>
-      <p className={styles.mainDescription}>
+      <p className={mainDescription}>
         Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.
       </p>
-      <Button
-        link="#"
-        text="Get Started"
-      />
+      <a href="#" className={linkButton}>
+        Get Started
+      </a>
     </section>
   )
 }

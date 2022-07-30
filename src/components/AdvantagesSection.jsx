@@ -1,14 +1,19 @@
-import styles from '../styles/AdvantagesSection.module.css';
 import AdvantagesCard from './AdvantagesCard';
 import AccessAnywhere from '../assets/icon-access-anywhere.svg';
 import SecurityLogo from '../assets/icon-security.svg';
 import Collaboration from '../assets/icon-collaboration.svg';
 import AnyFile from '../assets/icon-any-file.svg';
+import styles from '../styles/AdvantagesSection.module.css';
+const {
+  mainAdvantagesContainer,
+  frstContainer,
+  scndContainer,
+} = styles;
 
 const AdvantagesSection = () => {
   return (
-    <section className={styles.mainAdvantagesContainer}>
-      <div className={styles.frstContainer}>
+    <section className={mainAdvantagesContainer}>
+      <div className={frstContainer}>
         <AdvantagesCard
           icon={Collaboration}
           alt="Real-time collaboration"
@@ -22,7 +27,7 @@ const AdvantagesSection = () => {
           description="Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared."
         />
       </div>
-      <div className={styles.scndContainer}>
+      <div className={scndContainer}>
         <AdvantagesCard
           icon={SecurityLogo}
           alt="Security you can trust"

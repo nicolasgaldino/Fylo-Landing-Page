@@ -1,20 +1,30 @@
 import styles from '../styles/ReportsCard.module.css';
+const { 
+  resportsCard, 
+  reportDiv, 
+  reportDescription, 
+  identificationDiv, 
+  resportUserPic, 
+  textDiv, 
+  userReportName, 
+  userReportProfession 
+} = styles;
 
 const ReportsCard = ({ description, icon, name, profession }) => {
   return (
-    <div className={styles.resportsCard}>
-      <div className={styles.reportDiv}>
-        <h2 className={styles.reportDescription}>
+    <div className={resportsCard}>
+      <div className={reportDiv}>
+        <h2 className={reportDescription}>
           {description}
         </h2>
       </div>
-      <div className={styles.identificationDiv}>
-        <img src={icon} alt={name} className={styles.resportUserPic} />
-        <div className={styles.textDiv}>
-          <h3 className={styles.userReportName}>
+      <div className={identificationDiv}>
+        <img src={icon} alt={name} className={resportUserPic} />
+        <div className={textDiv}>
+          <h3 className={userReportName}>
             {name}
           </h3>
-          <p className={styles.userReportProfession}>
+          <p className={userReportProfession}>
             {profession}
           </p>
         </div>

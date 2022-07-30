@@ -30,6 +30,15 @@
   font-size: 1.25rem;
 }
 
+.linkButton {
+  font-size: 1.0625rem;
+  font-weight: 700;
+  background-color: var(--cyanGradient);
+  padding: 0.9375rem 3.75rem;
+  border-radius: 3.125rem;
+  max-width: 100%;
+}
+
 /* MOBILE */
 
 @media (max-width: 600px) {
